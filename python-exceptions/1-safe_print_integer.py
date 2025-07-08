@@ -6,7 +6,5 @@ def safe_print_integer(value):
         return False        
 
 
-value1=1
-value2="jules"
-safe_print_integer(value2)
+
 
