@@ -6,5 +6,5 @@ class BaseGeometry :
     """area function returns an expection message"""
     def area(self):
         """"uses Expection to return the message """
-        return Exception("area() is not implemented")
+        raise Exception("area() is not implemented")
     
