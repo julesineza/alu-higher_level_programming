@@ -12,7 +12,7 @@ class BaseGeometry :
         """uses isinstance to check if value is an integer and also checks if value is less or equal to 0 and
         raises errors"""
         if not isinstance(value,int):
-            raise TypeError(f"{name}must be an integer")
+            raise TypeError(f"{name} must be an integer")
         if value <= 0 :
             raise ValueError(f"{name} must be greater than 0")
         
