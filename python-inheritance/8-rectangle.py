@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+"""Renctangle class """
 
 class Rectangle(BaseException):
     """Rectangle class inherits from BaseGeometry """
