@@ -4,7 +4,7 @@
 function that creates an Object from a “JSON file
 """
 import json
-def oad_from_json_file(filename):
+def load_from_json_file(filename):
     """
     uses json.parse to convert data fromthe filename to an object
     """
