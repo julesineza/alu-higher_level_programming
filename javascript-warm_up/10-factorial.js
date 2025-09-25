@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const n = parseInt(process.argv[2], 10);
 
 function factorial(x) {
