@@ -1,12 +1,14 @@
 #!/usr/bin/node
-
 class Rectangle {
-    constructor (w,h) {
-        if (typeof w === 'number' && w > 0 && typeof h === 'number' && h > 0){
-            this.width = w;
-            this.height = h;
-        }
+  constructor(w, h) {
+    if (w <= 0 || h <= 0 || isNaN(w) || isNaN(h)) {
+      // Instead of returning an empty object, just not setting width/height
+      this.width = undefined;
+      this.height = undefined;
+    } else {
+      this.width = w;
+      this.height = h;
     }
+  }
 }
-
 module.exports = Rectangle;
